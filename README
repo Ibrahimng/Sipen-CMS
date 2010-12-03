@@ -1,0 +1,25 @@
+Sipen CMS Billing System
+=================================
+Sipen CMS Development <freebytes@sipen.com>
+
+This Customer Management System is designed to help manage customers, send automated invoices,
+and simply billing processes.  This system is designed for monthly billing of customers, but the
+option to apply one time payments exists as well.
+
+=================
+Installation
+=================
+The www/ directory and everything in it should be accessible to the public and is the web site
+interface.  The library/ interface must be at ../ from the www/ directory.
+
+mysql must be installed and configured.  A file named "install.sql" is provided to set up the database.
+
+=================
+Configuration
+=================
+Modify the configuration file named 'config.settings.php' for customization.  After the basic settings
+are configured, simply visit the site using the web interface to make additional changes.
+
+The default username is 'admin' and the default password is 'admin' so please change these as soon as
+you access the server through the web interface.
+
