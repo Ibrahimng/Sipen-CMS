@@ -14,6 +14,12 @@ interface.  The library/ interface must be at ../ from the www/ directory.
 
 mysql must be installed and configured.  A file named "install.sql" is provided to set up the database.
 
+DO NOT USE THE "install.sql" FILE IF YOU HAVE AN EXISTING DATABASE.
+
+New database importing (after creating the initial database) can be done as follows:
+
+mysql -u root -p sipen_cms_development < install.sql
+
 =================
 Configuration
 =================
