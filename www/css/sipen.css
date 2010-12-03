@@ -1,0 +1,274 @@
+body
+{
+	color:#000000;
+	background-color:#FFFFFF;
+	margin:0px;
+	padding:0px;
+	font: normal 12pt verdana, arial, helvetica, sans-serif;
+}
+A { color: #0000FF; text-decoration: none; font-weight: normal; }
+A:visited { color: #0000FF; text-decoration: none; font-weight: normal; }
+A:hover { color: #F70000; text-decoration: none; font-weight: normal;  }
+.searchtext { color: white; font: normal 10pt Verdana; font-weight: bold; }
+label
+{
+	color: black;
+	font-weight: bold;
+	font-size: 12pt;
+}
+input
+{
+	color: #ffcc66;
+	background-color: #006699;
+	font-weight:bold;
+	font-size: 10pt;
+}
+.menuoption
+{
+	font-weight: bold;
+	color: orange;
+}
+.clink
+{
+	font: normal 12pt arial;
+}
+A.clink:link
+{
+	color: white; text-decoration: none; font-weight: bold;
+}
+A.clink:active
+{
+	color: #FFFFFF; text-decoration: none; font-weight: bold;
+}
+A.clink:visited
+{
+	color: #FFFFFF; text-decoration: none; font-weight: bold;
+}
+A.clink:hover
+{
+	color: #FF0000; text-decoration: none; font-weight: bold;
+}
+#leftarea
+{
+	position: relative;
+	clear: left;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 200px;
+	background-color: #003366;
+	padding: 2px;
+	height: 1000px;
+	margin-bottom: 0px;
+}
+#mainbar
+{
+	background-color: #052A6F;
+	margin-top: 0px;
+	margin-left: 2%;
+	width: 96%;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+#searchbar
+{
+	border: 0px solid #FFCC33;
+  width: 600px;
+	margin-top: 0;
+	margin-left: 250px;
+	z-index: 1;
+	padding: 0px;
+}
+.error
+{
+	position: absolute;
+	display: inline;
+	clear: both;
+	float: left;
+	font-weight: bold;
+	font-family: Arial;
+	text-align:center;
+	top: 0px;
+	left: 200px;
+	width: 800px;
+	z-index:99;
+	color: yellow;
+	background-color: red;
+}
+.flash
+{
+	position: absolute;
+	clear: both;
+	font-weight: bold;
+	text-align:center;
+	top: 0px;
+	left: 0px; 
+	width: 100%;
+	z-index: 98;
+	color: yellow;
+	background-color: #339F33;
+}
+#siteheader
+{
+	clear: both;
+	top: 0px;
+	left: 0px;
+        width: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	z-index: 1;
+}
+#headerimage
+{
+	float: left;
+	width: 162px;
+	text-align:center;
+	margin: 5px 0 0 0;
+	font: bold 9pt arial;
+}
+#headerlinks
+{
+	text-align:right;
+	margin: 20px 150px 0 0;
+	padding: 0 0 0 0;
+	font: bold 11pt arial;
+}
+.signuplinks
+{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	font: normal 12pt arial;
+}
+#centerpage
+{
+	text-align: left;
+	margin-left: 350px;
+	margin-top: 50px;
+}
+#mainpage
+{
+	text-align: left;
+	margin-left: 210px;
+	margin-top: 10px;
+}
+.headertext
+{
+	font-size: 14pt;
+	color: #0000cc;
+	font-weight: bold;
+}
+.ctext
+{
+	color: #cf9010;
+	font-weight: bold;
+}
+.oheader
+{
+	float: left;
+	clear: right;
+	display: block;
+	width: 500px;
+	background-color: #ffc040;
+	color: black;
+	font-weight: bold;
+}
+.tt
+{
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.tb
+{
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.inventorybox
+{
+	width: 70%;
+	border-style: solid;
+	border-color: #999999;
+	border-width: 1px;
+}
+#leftalignpage
+{
+	margin-left: 25px;
+	text-align: left;
+	margin-top: 25px;
+}
+#registrationpage
+{
+	position: absolute;
+	top: 150px;
+	left: 30px;
+	width: auto;
+}
+.sbutton
+{
+	color: #ffcc66;
+	background-color: #006699;
+	font-weight: bold;
+}
+.stext
+{
+	color: #ffcc66;
+	background-color: #006699;
+	font-weight:bold;
+	font-size: 10pt;
+}
+.stextbox
+{
+	color: #ffcc66;
+	background-color: #006699;
+	font-weight: bold;
+	font-size: 10pt;
+}
+.stextbox .dijitButton, .stextbox .dijitInputField,
+.stextbox .dijitButtonText, .stextbox .dijitInputField,
+.stextbox .dijitTextArea, .stextbox .dijitTextBoxError,
+.stextbox .dijitError, .stext .dijitValidationIconText,
+.stextbox .dijitInputField, .stextbox .dijitReset
+{
+	background-color: #006699;
+	color: #ffcc66;
+	font-weight: bold;
+	font-size: 10pt;
+}
+#featuredproducts
+{
+	text-align: center;
+	font-family: Arial;
+	font-size: 18pt;
+	font-weight: bold;
+}
+.productrow
+{
+	text-align: center;
+	font-family: Arial;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.featuredname
+{
+	font-family: Arial;
+	font-size: 8pt;
+	font-weight: normal;
+}
+.featuredprice
+{
+	font-family: Verdana;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.featuredtable
+{
+	border-style: solid;
+	border-color: #999999;
+	border-width: 1px 1px 1px 1px;
+	width: 128px;
+}
