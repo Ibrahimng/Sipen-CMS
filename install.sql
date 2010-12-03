@@ -258,7 +258,7 @@ CREATE TABLE `users` (
 # Dumping data for table `users`
 #
 
-INSERT INTO `users` (`id`, `username`, `password`, `firstname`, `lastname`, `level`, `last_login`, `address`, `city`, `state`, `zip`, `phone`, `email`, `failed`, `created_at`, `updated_at`) VALUES (10, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'Administrator', '', 2, '2010-11-25 23:14:58', '555 Hard Drive', 'Sunshine City', 'NC', '28557', '252-555-1212', 'admin@mydomain.com', 0, '2010-11-22 22:12:44', '2010-11-25 23:14:58');
+INSERT INTO `users` (`id`, `username`, `password`, `firstname`, `lastname`, `level`, `last_login`, `address`, `city`, `state`, `zip`, `phone`, `email`, `failed`, `created_at`, `updated_at`) VALUES (10, 'admin', '088a06715a1c1372880b53d6baf1aacd', 'Administrator', '', 2, '2010-11-25 23:14:58', '555 Hard Drive', 'Sunshine City', 'NC', '28557', '252-555-1212', 'admin@mydomain.com', 0, '2010-11-22 22:12:44', '2010-11-25 23:14:58');
 
 
 

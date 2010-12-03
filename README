@@ -26,6 +26,6 @@ Configuration
 Modify the configuration file named 'config.settings.php' for customization.  After the basic settings
 are configured, simply visit the site using the web interface to make additional changes.
 
-The default username is 'admin' and the default password is 'admin' so please change these as soon as
-you access the server through the web interface.
+The default username is 'admin' and the default password is 'administrator' so please change these
+as soon as you access the server through the web interface.
 
